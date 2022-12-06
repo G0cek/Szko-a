@@ -1,0 +1,61 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #6ee34c;
+}
+
+
+.bo{
+    font-weight: bold;
+    font-size: 30px;   
+}
+
+ol.l-1, .l-2, .l-3, .l-4, .l-5{
+width: 15%;
+border:1px solid black;
+float: left;
+list-style-type: none;
+font-size: 20px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.l-0{
+    font-size: 25px;
+    margin-top: 10px;
+    height: 38px;
+    width:100%;
+    background-color: #7b68ee;
+    list-style-type: none;
+    
+}
+
+
+
+.l-0 li{
+    display: inline-block;
+    width: 9%;
+    color: white;   
+}
+
+
+
+@media only screen and 
+    (max-width: 600px)
+    {
+        body{
+            background-color: green;
+            
+        }
+
+        ol.l-1, .l-2, .l-3, .l-4, .l-5{
+            display: block;
+            width: 90%;
+            color: white;   
+            
+        }
+
+        a{
+            margin: 25px;
+            font-size: 20px;
+        }
+    }
