@@ -1,0 +1,105 @@
+
+ol {
+    list-style-type:none; 
+  }
+
+  header{
+    display: inline;
+  }
+
+  li::marker{
+    color: blue;
+    float: left;
+    
+  }
+
+  main{
+    padding: 0;
+    margin: 0;
+    width:50%;
+    float: left;
+  }
+
+  aside{
+    float: right;
+    width:50%;
+  }
+
+  span.pakiet{
+    color:blue;
+  }
+
+  p > .urządzenie{
+    color:blue;
+  }
+
+  span.cena{
+    color:gray;
+    font-size: 25px;
+  }
+
+footer{
+    padding-top: 470px;
+}
+
+.sec > a{
+  padding: 10px;
+  color:black;
+  text-align: center;
+  text-decoration:none;
+} 
+
+.ZobWsz{
+  margin: 0px;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 0px;
+}
+
+.dolne > ol {
+  padding: 0px;
+  margin: 0px;
+  width: 50vw;
+  font-size: 20px;
+  height: 30px;
+  
+}
+
+.dolne{
+  margin-top: 50px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.dolne > ol > li{
+  padding-right: 20px ;
+  display:inline-block;
+}
+
+.dolne > p{
+  font-size: 20px;
+  margin: 5px;
+}
+
+.mar{
+  color: blue;
+  text-decoration: none;
+}
+
+.pakiet{
+  padding-top:20px ;
+}
+
+.Apk, .premium, .zawiera{
+  font-size: 20px;
+  color:grey;
+  font-weight: bold;
+}
+
+
+
+
